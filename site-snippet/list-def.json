@@ -1,0 +1,37 @@
+{
+    "name": "siteSnippets",
+    "namespace": "mozu",
+    "listFQN": "siteSnippets@mozu",
+    "documentTypes": [
+        "snippets@mozu"
+    ],
+    "supportsPublishing": true,
+    "enablePublishing": false,
+    "supportsActiveDateRanges": true,
+    "enableActiveDateRanges": false,
+    "views": [
+        {
+            "name": "default",
+            "usages": [
+                "sitebuilder",
+                "entityManager"
+            ],
+            "isVisibleInStorefront": true,
+            "filter": "",
+            "fields": [
+                {
+                    "name": "content",
+                    "target": "properties.content"
+                }
+            ]
+        }
+    ],
+    "usages": [
+        "sitebuilder",
+        "entityManager"
+    ],
+    "security": "",
+    "scopeId": 42681,
+    "scopeType": "Site",
+    "documentListType": "siteSnippets@mozu"
+}

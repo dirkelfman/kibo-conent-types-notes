@@ -1,0 +1,19 @@
+{
+    "id": "ea06a319-004f-4211-9d39-88c805e61749",
+    "name": "sitesnippets",
+    "extension": "",
+    "documentTypeFQN": "entityEditor@mozu",
+    "listFQN": "entityEditors@mozu",
+    "publishState": "none",
+    "properties": {
+        "documentLists": [
+            "siteSnippets@mozu"
+        ],
+        "priority": 0,
+        "code": "Ext.widget({\r\n    xtype: 'mz-form-entity',\r\n    title: 'TheRP Snippet',\r\n    items: [\r\n\r\n      {\r\n            fieldLabel: 'HTML Content',\r\n            name: 'content',\r\n            xtype: 'mz-input-code',\r\n            allowBlank: false\r\n        }\r\n    ]\r\n});",
+        "documentTypes": [],
+        "entityLists": []
+    },
+    "insertDate": "2021-06-02T17:37:21.934Z",
+    "updateDate": "2021-06-02T17:39:53.216Z"
+}

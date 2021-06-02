@@ -1,0 +1,50 @@
+{
+    "name": "mediaItems",
+    "namespace": "bluefly",
+    "listFQN": "mediaItems@bluefly",
+    "documentTypes": [
+        "mediaItem@TheRP"
+    ],
+    "supportsPublishing": true,
+    "enablePublishing": true,
+    "supportsActiveDateRanges": true,
+    "enableActiveDateRanges": true,
+    "views": [
+        {
+            "name": "default",
+            "usages": [
+                "sitebuilder",
+                "entityManager"
+            ],
+            "isVisibleInStorefront": true,
+            "fields": [
+                {
+                    "name": "name",
+                    "target": "name"
+                },
+                {
+                    "name": "targetName",
+                    "target": "properties.targetName"
+                },
+                {
+                    "name": "htmlContent",
+                    "target": "properties.htmlContent"
+                },
+                {
+                    "name": "htmlContentAlternate",
+                    "target": "properties.htmlContentAlternate"
+                },
+                {
+                    "name": "notes",
+                    "target": "properties.notes"
+                }
+            ]
+        }
+    ],
+    "usages": [
+        "entityManager",
+        "siteBuilder"
+    ],
+    "scopeId": 1,
+    "scopeType": "Catalog"
+}

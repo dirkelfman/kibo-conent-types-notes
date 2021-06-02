@@ -1,0 +1,60 @@
+{
+    "name": "mediaItem",
+    "namespace": "TheRP",
+    "documentTypeFQN": "mediaItem@TheRP",
+    "adminName": "mediaItem",
+    "properties": [
+        {
+            "name": "targetName",
+            "isRequired": true,
+            "isMultiValued": false,
+            "propertyType": {
+                "name": "string",
+                "namespace": "mozu",
+                "propertyTypeFQN": "string@mozu",
+                "installationPackage": "core@mozu",
+                "version": "1.0",
+                "dataType": "string"
+            }
+        },
+        {
+            "name": "htmlContent",
+            "isRequired": true,
+            "isMultiValued": false,
+            "propertyType": {
+                "name": "string",
+                "namespace": "mozu",
+                "propertyTypeFQN": "string@mozu",
+                "installationPackage": "core@mozu",
+                "version": "1.0",
+                "dataType": "string"
+            }
+        },
+        {
+            "name": "htmlContentAlternate",
+            "isRequired": false,
+            "isMultiValued": false,
+            "propertyType": {
+                "name": "string",
+                "namespace": "mozu",
+                "propertyTypeFQN": "string@mozu",
+                "installationPackage": "core@mozu",
+                "version": "1.0",
+                "dataType": "string"
+            }
+        },
+        {
+            "name": "notes",
+            "isRequired": false,
+            "isMultiValued": false,
+            "propertyType": {
+                "name": "string",
+                "namespace": "mozu",
+                "propertyTypeFQN": "string@mozu",
+                "installationPackage": "core@mozu",
+                "version": "1.0",
+                "dataType": "string"
+            }
+        }
+    ]
+}
